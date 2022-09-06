@@ -1,0 +1,4 @@
+ansible
+ansicolor
+configuration-as-code
+ssh-agent
