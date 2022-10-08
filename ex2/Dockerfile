@@ -11,7 +11,7 @@ RUN yum update -y && \
 RUN cd /var/www/html
 
 # download webfiles
-RUN wget
+RUN wget https://github.com/ahiazd/CodeWizard/blob/main/ex2/login.html
 
 # copy files into html directory
 RUN cp login.html /var/www/html/
